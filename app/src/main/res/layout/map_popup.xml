@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffff">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/descarga"/>
+
+        <TextView
+            android:id="@+id/nombreLugar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff8619"
+            android:text="Nombre"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/direccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff110000"
+        android:text="Direccion"
+        android:textStyle="italic"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff110000"
+        android:text="Horario"
+        android:padding="10dp"/>
+
+</LinearLayout>

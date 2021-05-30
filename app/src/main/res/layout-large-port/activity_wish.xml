@@ -1,0 +1,39 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/colorTittle"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FCB04D"/>
+
+    <ImageButton
+        android:id="@+id/arrowBack"
+        android:layout_width="25dp"
+        android:layout_height="35dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/arrow"
+        android:contentDescription="leftArrow"
+        android:layout_alignParentLeft="true"
+        android:onClick="retButton"/>
+
+    <TextView
+        android:id="@+id/titlePlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="WishList"
+        android:textSize="33sp"
+        android:textColor="#ffffff"
+        android:layout_margin="13dp"
+        android:layout_toRightOf="@id/arrowBack"/>
+
+    <ListView
+        android:id="@+id/wishList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/colorTittle">
+    </ListView>
+</RelativeLayout>

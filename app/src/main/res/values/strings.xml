@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">VeganWay</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_bdhelper">BDHelper</string>
+    <string name="title_activity_dbmanager">DBManager</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="title_activity_fav">FavActivity</string>
+    <string name="title_activity_wish">WishActivity</string>
+    <string name="title_activity_expand_list_adapter">ExpandListAdapter</string>
+    <string name="title_activity_list_adapter">ListAdapter</string>
+</resources>

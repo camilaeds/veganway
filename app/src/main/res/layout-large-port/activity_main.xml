@@ -1,0 +1,80 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:id="@+id/title"
+            android:layout_width="460dp"
+            android:layout_height="112dp"
+            android:background="@drawable/title_veganway"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="311dp"
+            android:orientation="horizontal"
+            android:gravity="bottom">
+
+                <ImageButton
+                    android:id="@+id/mapsOpt"
+                    android:layout_width="150dp"
+                    android:layout_height="270dp"
+                    android:layout_margin="5dp"
+                    android:onClick="mapClick"
+                    android:layout_weight="1"
+                    android:background="@drawable/mapas"/>
+
+                <ImageButton
+                    android:id="@+id/guideOpt"
+                    android:layout_width="150dp"
+                    android:layout_height="270dp"
+                    android:layout_toRightOf="@id/mapsOpt"
+                    android:layout_below="@id/linear"
+                    android:layout_margin="5dp"
+                    android:onClick="listClick"
+                    android:layout_weight="1"
+                    android:background="@drawable/guia"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="bottom|center"
+            android:weightSum="2">
+
+            <ImageButton
+                android:id="@+id/wishOpt"
+                android:layout_width="150dp"
+                android:layout_height="270dp"
+                android:layout_margin="5dp"
+                android:onClick="wishClick"
+                android:layout_weight="1"
+                android:background="@drawable/wishlist"/>
+            <ImageButton
+                android:id="@+id/favOpt"
+                android:layout_width="150dp"
+                android:layout_height="270dp"
+                android:layout_margin="5dp"
+                android:onClick="favClick"
+                android:layout_weight="1"
+                android:background="@drawable/fav"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>
