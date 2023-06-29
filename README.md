@@ -1,1 +1,1 @@
-APLICACION CON ANDROID STUDIO. 
+Aplicación con Android Studio.  
